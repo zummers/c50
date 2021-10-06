@@ -1,0 +1,30 @@
+h1 {
+    color: brown;
+}
+
+/* {
+    border: solid;
+}*/
+
+.top{
+background-color:rgb(83, 179, 185) ;
+display:flex;
+justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(127, 197, 255);
+}
+
+.item{
+    justify-content: space-between;
+}
+
+.bottom{
+    display:flex;
+    justify-content: flex-end;
+    background-color: antiquewhite;
+}
